@@ -101,17 +101,18 @@ body{
    ;
 }
 
+
 .project-heading{
     font-size: 80px;
-    background: #ffffff;
-    text-transform:none;
+    background: #020202;
+    font-family:'Times New Roman';
     text-align: center;
     margin-bottom: 50px;
-    color: #5905ad;
-    background-clip: text;
+    color: #ffffff;
     -webkit-background-clip: text;
     -webkit-text-stroke: 8px transparent;
 }
+
 
 .project-container{
     display: grid;
