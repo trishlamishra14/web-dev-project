@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -101,7 +102,6 @@ body{
    ;
 }
 
-
 .project-heading{
     font-size: 80px;
     background: #020202;
@@ -112,7 +112,6 @@ body{
     -webkit-background-clip: text;
     -webkit-text-stroke: 8px transparent;
 }
-
 
 .project-container{
     display: grid;
@@ -173,6 +172,17 @@ body{
     padding: 0 40px; /* Increase padding to increase button width */
     display: flex;
     align-items: center;
+}
+@media only screen and (max-width: 768px) {
+    /* Styles for small screens */
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for medium screens */
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .project-btn.live {
@@ -612,3 +622,97 @@ body{
     width: 30px; /* Adjust the size as needed */
     height: auto;
 }
+
+
+/* Add your existing CSS here */
+
+/* Add media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    /* Styles for tablets and smaller devices */
+    .navbar {
+        justify-content: space-around;
+    }
+
+    .link-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link a {
+        padding: 10px 0;
+        margin: 10px 0;
+        line-height: normal;
+    }
+
+    .home-section,
+    .project-section,
+    .about-section,
+    .contact-section {
+        padding: 100px 20px;
+    }
+
+    .project-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+    }
+
+    .project-title {
+        font-size: 40px;
+    }
+    .project-info {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* Add more styles as needed */
+}
+
+@media only screen and (max-width: 576px) {
+    /* Styles for smaller devices like phones */
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .link a {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .home-section,
+    .project-section,
+    .about-section,
+    .contact-section {
+        padding: 50px 10px;
+    }
+
+    .project-heading {
+        font-size: 60px;
+    }
+
+    .project-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+
+    .project-card {
+        height: auto;
+    }
+
+    .project-img {
+        height: 200px; /* Adjust as needed */
+    }
+
+    .project-title {
+        font-size: 30px;
+    }
+
+    .project-info {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* Add specific adjustments here */
+}
+
+
+    
