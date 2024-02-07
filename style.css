@@ -713,6 +713,28 @@ img {
 
     /* Add specific adjustments here */
 }
+/* Navbar */
+.navbar {
+    justify-content: space-between; /* Ensure items are spaced evenly */
+    padding: 20px 50px; /* Adjust padding as needed */
+}
+
+.link-group {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.link {
+    margin: 0 10px; /* Adjust margin between links */
+}
+
+/* Project and Contact sections */
+.project-section,
+.contact-section {
+    margin-top: 100px; /* Add margin to the top */
+    margin-bottom: 100px; /* Add margin to the bottom */
+}
+
 
 
     
